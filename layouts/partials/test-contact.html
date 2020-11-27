@@ -1,0 +1,74 @@
+<div class="container" id="contact">
+
+    <div id="heading-breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5">
+            <h4>{{ i18n "aboutUs" }}</h4>
+            {{ .Site.Params.about_us | safeHTML }}
+            <h4>Nos Horaires</h4>
+                <p>
+                    <table>
+                        <tr>
+                            <td><b>Lundi</b></td>
+                            <td style="text-align:right">14:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Mardi</b></td>
+                            <td style="text-align:right">09:00–12:00, 14:00–19:00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Mercredi</b></td>
+                            <td style="text-align:right">09:00–12:00, 14:00–19:00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Jeudi</b></td>
+                            <td style="text-align:right">09:00–12:00, 14:00–19:00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Vendredi</b></td>
+                            <td style="text-align:right">09:00–12:00, 14:00–19:00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Samedi</b></td>
+                            <td style="text-align:right">09:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Dimanche</b></td>
+                            <td style="text-align:right">Fermé</td>
+                        </tr>
+                    </table>
+                </p>
+        </div>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10468.18175555127!2d1.9002304!3d49.0097205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73ba588669b2c424!2sP.L%20Performances%20Moto%2078!5e0!3m2!1sfr!2sfr!4v1606485147575!5m2!1sfr!2sfr" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+
+     <!--<div class="row">
+        <div class="col-md-6">
+            {{ if isset .Site.Params "address" }}
+            <section>
+              <h4>Notre Adresse</h4>
+                {{ .Site.Params.address | safeHTML }}
+            </section>
+            {{ end }}
+        </div>
+    </div>-->
+
+    <!--<div class="row">
+        <div class="col-md-12">
+            {{ partial "map.html" . }}
+        </div>
+    </div>-->
+    <!-- /.row -->
+
+</div>
+
