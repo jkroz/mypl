@@ -1,6 +1,6 @@
 baseurl = "https://example.org"
 title = "PLPerformances"
-theme = "hugo-universal-theme"
+theme = "hugo-universal-theme2"
 #themesDir = "../.."
 languageCode = "fr-fr"
 # Site language. Available translations in the theme's `/i18n` directory.
