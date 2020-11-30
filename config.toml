@@ -1,4 +1,5 @@
-baseurl = "https://example.org"
+#baseurl = "https://example.org"
+baseurl = "http://jkroz.github.io"
 title = "PLPerformances"
 theme = "hugo-universal-theme"
 #themesDir = "../.."
